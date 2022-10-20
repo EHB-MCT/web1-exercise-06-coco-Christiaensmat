@@ -1,0 +1,27 @@
+
+body {
+	margin-top: 40px;
+    margin: 0;
+}
+h1 {
+    color: #0282f9;
+    font-size: 40px;
+}
+.wrapper {
+	width: 920px;
+	
+	
+	margin: 0 auto;
+}
+
+.featured {
+    width: 100%;
+    
+    
+    position: relative
+    float:left;
+    margin-bottom: 50px;
+}
+
+.whoswho{
+width: 100%;
