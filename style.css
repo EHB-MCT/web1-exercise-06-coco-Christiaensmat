@@ -1,27 +1,62 @@
+/* import google font */
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap");
 
+/* body element - simple selector */
 body {
-	margin-top: 40px;
-    margin: 0;
+	margin: 50px 0 0 0;
+	font-family: "Abel", sans-serif;
 }
-h1 {
-    color: #0282f9;
-    font-size: 40px;
-}
+
+/* div met de classnaam wrapper */
 .wrapper {
-	width: 920px;
-	
-	
-	margin: 0 auto;
+	width: 1200px;
+	height: 750px;
+	margin: 0 auto 0 auto;
+	background-image: url(images/coco.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
-.featured {
-    width: 100%;
-    
-    
-    position: relative
-    float:left;
-    margin-bottom: 50px;
+/* div met de classnaam inhoud */
+.inhoud {
+	padding-left: 600px;
+	padding-right: 50px;
 }
 
-.whoswho{
-width: 100%;
+/* logo - alle afbeeldingen in de div met de classnaam inhoud */
+.inhoud img {
+	width: 300px;
+	margin-left: 120px;
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+/* alle h1's in de div met de classnaam inhoud */
+.inhoud h1 {
+	color: #fff;
+	font-weight: normal;
+}
+
+/* alle p's in de div met de classnaam inhoud */
+.inhoud p {
+	color: #fff;
+}
+
+/* knop */
+.inhoud a {
+	position: relative;
+	float: left;
+	background-color: #f38030;
+	padding: 20px;
+	margin-top: 20px;
+	border-radius: 5px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/* hover effect wanneer er met de muis over de knop wordt gegaan */
+.inhoud a:hover {
+	background-color: #fff;
+	color: #f38030;
+}
